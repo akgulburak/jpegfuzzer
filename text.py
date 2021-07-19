@@ -41,7 +41,7 @@ for filename in files:
 		text = read_bytes(file)		
 		file.close()
 
-		file = open("tmp.jpg","rb")
+		file = open("testing/ia_100000106.jpg","rb")
 		x_file = read_bytes(file)		
 		file.close()
 
