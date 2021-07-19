@@ -1,0 +1,8 @@
+fuzzer.cpp:
+readFile() function is used to generate fuzzed data from the selected base image (currently, the image "testing/ia_100000106.jpg" is used)
+dataset is generated to the folder "dataset".
+
+text.py:
+After running the fuzzer.cpp and creating dataset, running text.py script would generate predictions in the "predicts" folder, after training is finished (training uses "testing/ia_100000106.jpg" file as base image).
+
+
