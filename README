@@ -1,5 +1,5 @@
 fuzzer.cpp:
-readFile() function is used to generate fuzzed data from the selected base image (currently, the image "testing/ia_100000106.jpg" is used)
+readFile() function is used to generate fuzzed data from the selected base image (currently, the image "tmp.jpg" is used)
 dataset is generated to the folder "dataset".
 
 text.py:
