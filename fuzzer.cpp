@@ -212,7 +212,7 @@ int main(int argc, char** argv){
 	vector<char> copy_data; 
 	vector<char> mutated;
 	float flips = jpeg_file.size()*FLIP_RATIO;
-	for(int i=0;i<1;i++){
+	for(int i=0;i<100000;i++){
 		copy_data = jpeg_file;
 		mutated = mutate(copy_data,flips);
 			
