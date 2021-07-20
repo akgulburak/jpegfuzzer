@@ -1,3 +1,5 @@
+For more information about the project, read fuzzer_report.pdf
+
 fuzzer.cpp:
 readFile() function is used to generate fuzzed data from the selected base image (currently, the image "tmp.jpg" is used)
 dataset is generated to the folder "dataset".
